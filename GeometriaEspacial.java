@@ -1,12 +1,10 @@
-// Importa o scanner
 import java.util.Scanner;
- 
+
 public class GeometriaEspacial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int escolha;
- 
-        // Escolhe entre as opcoes de calculo
+
         do {
             System.out.println("Calculadora Espacial");
             System.out.println("1. Volume da Esfera");
@@ -16,8 +14,7 @@ public class GeometriaEspacial {
             System.out.println("5. Sair");
             System.out.print("Escolha uma opção (1-5): ");
             escolha = scanner.nextInt();
- 
-            // Digita os valores
+
             switch (escolha) {
                 case 1:
                     System.out.print("Digite o raio da esfera: ");
@@ -44,32 +41,31 @@ public class GeometriaEspacial {
                     System.out.println("Volume do cone: " + calcularVolumeCone(raioCone, alturaCone));
                     break;
                 case 5:
-                    System.out.println("Saindo da calculadora. Até logo!");
+                    System.out.println("Finalizando o programa...");
                     break;
                 default:
                     System.out.println("Escolha inválida. Por favor, selecione uma opção válida.");
             }
         } while (escolha != 5);
     }
- 
-    // Calcula o volume da esfera
+
+    // Volume da esfera
     public static double calcularVolumeEsfera(double raio) {
         return (4.0 / 3.0) * Math.PI * Math.pow(raio, 3);
     }
- 
-    // Calcula o volume do cilindro
+
+    // Volume do cilindro
     public static double calcularVolumeCilindro(double raio, double altura) {
         return Math.PI * Math.pow(raio, 2) * altura;
     }
- 
-    // Calcula o volume do cubo
+
+    // Volume do cubo
     public static double calcularVolumeCubo(double aresta) {
         return Math.pow(aresta, 3);
     }
- 
-    // Calcula o volume do cone
+
+    // Volume do cone
     public static double calcularVolumeCone(double raio, double altura) {
         return (1.0 / 3.0) * Math.PI * Math.pow(raio, 2) * altura;
     }
 }
- 
