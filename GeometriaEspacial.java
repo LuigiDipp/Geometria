@@ -44,7 +44,7 @@ public class GeometriaEspacial {
                     System.out.println("Finalizando o programa...");
                     break;
                 default:
-                    System.out.println("Escolha inválida. Por favor, selecione uma opção válida.");
+                    System.out.println("Escolha inválida. Favor, selecionar uma opção válida.");
             }
         } while (escolha != 5);
     }
