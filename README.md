@@ -10,7 +10,7 @@
 <br>
 <h1 align="center">Descrição</h1>
 <p>Esta calculadora de geometria, desenvolvida em Java, oferece funcionalidades para realizar cálculos em geometria espacial e geometria plana. Cada tipo de geometria possui seu próprio menu de opções, facilitando a navegação e utilização da aplicação.</p>
-
+<br>
 <h1 align="center">⚙️Funcionalidades⚙️</h1>
 <br>
 <ul>
