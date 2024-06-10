@@ -18,20 +18,20 @@
     <li><strong>Geometria Plana:</strong> Cálculos de áreas, perímetros e outras propriedades de figuras geométricas planas.</li>
     <li><strong>Menus Interativos:</strong> Cada tipo de geometria possui um menu dedicado para selecionar as operações desejadas.</li>
 </ul>
-
+<br>
 <h1 align="center">📁Arquivos Principais📁</h1>
 <br>
 <ul>
     <li><code>GeometriaEspacial.java</code>: Contém o menu e os cálculos relacionados à geometria espacial.</li>
     <li><code>GeometriaPlana.java</code>: Contém o menu e os cálculos relacionados à geometria plana.</li>
 </ul>
-
+<br>
 <h1 align="center">💻Tecnologias Utilizadas💻</h1>
 <br>
 <ul>
     <li><strong>Java:</strong> Linguagem de programação utilizada para desenvolver a lógica e os cálculos da aplicação.</li>
 </ul>
-
+<br>
 <h1 align="center">🔨Como Executar🔨</h1>
 <br>
 <ol>
@@ -50,7 +50,7 @@
         </ul>
     </li>
 </ol>
-
+<br>
 <h1 align="center">🤝Contribuição🤝</h1>
 <br>
 <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias, novas funcionalidades e correções de bugs.</p>
